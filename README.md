@@ -1,3 +1,11 @@
+# probai riscv-opcodes
+Adding new instructions for neighbors' register file access, sampling and lut function.
+```bash
+make EXTENSIONS='rv32_pru'
+#merge the codes with 'pulp-riscv-gnu-toolchain/pulp-riscv-binutils-gdb'
+#go to 'pulp-riscv-gnu-toolchain' regenerate the riscv-gcc
+```
+
 # riscv-opcodes
 
 This repo enumerates standard RISC-V instruction opcodes and control and
